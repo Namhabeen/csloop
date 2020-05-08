@@ -18,6 +18,17 @@ namespace csloop_05._08
                 count++;
             }
             Console.WriteLine(count + "번 반복했습니다!");
+
+            String[] array = { "사과주스", "배주스", "포도주스", "딸기우유", "바나나우유" };
+
+            foreach (string item in array)
+            {
+                Console.WriteLine(item);
+            }
+            foreach (var item in array)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
