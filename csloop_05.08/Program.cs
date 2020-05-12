@@ -11,6 +11,7 @@ namespace csloop_05._08
     {
         static void Main(string[] args)
         {
+            /* 05.08 수업
             long start = DateTime.Now.Ticks;
             long count = 0;
             while (start + (10000000) > DateTime.Now.Ticks)
@@ -24,11 +25,14 @@ namespace csloop_05._08
             foreach (string item in array)
             {
                 Console.WriteLine(item);
-            }
+            }*/
+
+            //05.12 수업
+            int[] array = new int[10];
             foreach (var item in array)
             {
                 Console.WriteLine(item);
             }
-        }
+        }  
     }
 }
