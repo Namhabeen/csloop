@@ -32,7 +32,7 @@ namespace csloop_05._08
             //int[] array = new int[20];
             //int[] array = new int[3] { 1, 2, 3 };
             //오류발생-> int[] array = int[]{ 1,2,3};
-            int[] array = { 1, 2, 3 };
+            /*int[] array = { 1, 2, 3 };
             foreach (var item in array)
             {
                 Console.WriteLine(item);
@@ -40,7 +40,13 @@ namespace csloop_05._08
             for (int i = 0; i < 20; i = i + 2)
             {
                 Console.Write("출력 ");
+            }*/
+            int i = 0;
+            while (i < 10)
+            {
+                Console.Write("출력 ");
+                i++;
             }
-        }  
+        }
     }
 }
